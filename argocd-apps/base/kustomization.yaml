@@ -6,3 +6,4 @@ resources:
 - ./apps/nginx
 - ./apps/ingress-nginx
 - ./apps/2048
+- ./apps/argocd
