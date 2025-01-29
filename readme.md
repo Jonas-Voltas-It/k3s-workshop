@@ -34,3 +34,6 @@ kubectl delete service nginx -n default
 
 
 brew install kustomize
+
+
+kubectl edit applications root-app -n argocd
