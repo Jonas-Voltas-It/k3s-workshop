@@ -16,3 +16,10 @@ kubectl port-forward services/nginx 8080:80
 kubernetes package manager "helm"
 
 brew install helm 
+
+get admin password
+kubectl get secrets argocd-initial-admin-secret -oyaml
+echo eFFSTGtSMEs3VThDWWYydA== |base64 -d
+xQRLkR0K7U8CYf2t
+
+kubectl port-forward svc/argocd-server 8080:80
