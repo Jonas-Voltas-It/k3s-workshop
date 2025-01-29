@@ -5,3 +5,4 @@ resources:
 - ./base/deployments.yaml
 - ./base/namespace.yaml
 - ./base/services.yaml
+- ./base/ingress.yaml
