@@ -1,3 +1,6 @@
+multipass setup
+
+
 kubectl - 
 
 kubectl apply -f ./deployments.yaml
