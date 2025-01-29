@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: argocd-apps/base/
-    repoURL: https://github.com/AurimasNav/lab-k3s.git
+    repoURL: https://github.com/Jonas-Voltas-It/k3s-workshop.git
     targetRevision: main
   syncPolicy:
     automated:

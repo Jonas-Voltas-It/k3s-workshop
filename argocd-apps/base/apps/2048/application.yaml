@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: '2048'
+  name: "2048"
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: gitops/2048
-    repoURL: https://github.com/AurimasNav/lab-k3s.git
+    repoURL: https://github.com/Jonas-Voltas-It/k3s-workshop.git
     targetRevision: main
   syncPolicy:
     automated:
