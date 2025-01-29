@@ -35,5 +35,15 @@ kubectl delete service nginx -n default
 
 brew install kustomize
 
-
 kubectl edit applications root-app -n argocd
+
+multipass vm ip address:
+192.168.64.2
+
+// check logs
+kubectl logs [pod name]
+
+
+// reinstall argocd
+kubectl delete -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
